@@ -12,6 +12,7 @@ function adicionaTarefas() {
   for (let index = 0; index < itensLista.length; index += 1) {
     // eslint-disable-next-line no-use-before-define
     itensLista[index].addEventListener('click', mudarCorItem);
+    // eslint-disable-next-line no-use-before-define
     itensLista[index].addEventListener('dblclick', riscarItem);
   }
 }
@@ -40,3 +41,24 @@ function riscarItem(event) {
     evento.target.className = 'completed';
   }
 }
+
+// função que apaga todas as tarefas
+const li = document.getElementsByTagName('li');
+function apagarTarefas() {
+  for (let index = li.length - 1; index >= 0; index -= 1) {
+    li[index].remove();
+  }
+}
+
+const botaoApagar = document.getElementById('apaga-tudo');
+botaoApagar.addEventListener('click', apagarTarefas);
+
+const tarefasFinalizadas = document.getElementsByClassName('completed');
+function apagaTarefasFinalizadas() {
+  for (let index = tarefasFinalizadas.length - 1; index >= 0; index -= 1) {
+    tarefasFinalizadas[index].remove();
+  }
+}
+
+const botaApagarFinalizadas = document.getElementById('remover-finalizados');
+botaApagarFinalizadas.addEventListener('click', apagaTarefasFinalizadas);
