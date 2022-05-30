@@ -59,6 +59,6 @@ function apagaTarefasFinalizadas() {
     tarefasFinalizadas[index].remove();
   }
 }
-
+//
 const botaApagarFinalizadas = document.getElementById('remover-finalizados');
 botaApagarFinalizadas.addEventListener('click', apagaTarefasFinalizadas);
