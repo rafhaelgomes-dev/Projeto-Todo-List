@@ -62,3 +62,29 @@ function apagaTarefasFinalizadas() {
 //
 const botaApagarFinalizadas = document.getElementById('remover-finalizados');
 botaApagarFinalizadas.addEventListener('click', apagaTarefasFinalizadas);
+
+function moverParaCima() {
+  const elementoColor = document.getElementById('color');
+  if (elementoColor === null) {
+    return;
+  } if (elementoColor.id === 'color') {
+    listaDeTarefas.insertBefore(elementoColor, elementoColor.previousElementSibling);
+  }
+}
+
+function moverParaBaixo() {
+  const elementoColor1 = document.getElementById('color');
+  if (elementoColor1 === null) {
+    return;
+  }
+
+  if (elementoColor1.id === 'color') {
+    listaDeTarefas.insertBefore(elementoColor1.nextElementSibling, elementoColor1);
+  }
+}
+
+const botaoMoverCima = document.getElementById('mover-cima');
+botaoMoverCima.addEventListener('click', moverParaCima);
+
+const botaoMoverBaixo = document.getElementById('mover-baixo');
+botaoMoverBaixo.addEventListener('click', moverParaBaixo);
