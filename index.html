@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Lista de Tarefas</title>
-    <link rel="stylesheet" href="style.css">
+   
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
@@ -15,15 +19,17 @@
 
     <main>
     <section>
-        <input id="texto-tarefa" type="text">
-        <button id="criar-tarefa">Criar Tarefa</button>
+        <input id="texto-tarefa" type="text" class="form-control">
+        <button id="criar-tarefa" class="btn btn-success">Criar Tarefa</button>
         <ol id="lista-tarefas"> </ol>
-        <button id="apaga-tudo">Apagar todas as tarefas</button>
-        <button id="remover-finalizados">Apagar tarefas finalizadas</button>
-        <button id="mover-cima">Mover item para cima</button>
-        <button id="mover-baixo">Mover item para baixo</button>
+        <button id="apaga-tudo" class="btn btn-danger">Apagar todas as tarefas</button>
+        <button id="remover-finalizados" class="btn btn-warning">Apagar tarefas finalizadas</button>
+        <button id="mover-cima" class="btn btn-primary btn-sm">Mover item para cima</button>
+        <button id="mover-baixo" class="btn btn-primary btn-sm">Mover item para baixo</button>
     </section>
     </main>
     <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

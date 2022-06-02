@@ -1,7 +1,61 @@
+
+body {
+    background-color: #6495ED;
+}
+
 #color {
     background-color: gray;
 }
 
 .completed {
     text-decoration: line-through solid black
+}
+
+#criar-tarefa {
+    margin-top: 20px;
+}
+
+#mover-baixo {
+    margin-top: 20px;
+}
+
+#mover-cima {
+    margin-top: 20px;
+}
+
+#lista-tarefas {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+section {
+    width: 50%;
+    margin: auto;
+    background-color: 	#DCDCDC;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header {
+    color: #1a3870;
+    text-align: center;
+    border-radius: 10px;
+    background-color: 		#DCDCDC;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#apaga-tudo {
+    margin-top: 20px;
+}
+
+#remover-finalizados {
+    margin-top: 20px;
 }
