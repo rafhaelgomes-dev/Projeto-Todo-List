@@ -11,6 +11,6 @@ JavaScript, HTML, CSS, Bootstrap.
 
 ## Utilização
 
-- Para clonar o projeto: `git@github.com:rafhaelgomes-dev/MyWallet-Controle-Pessoal.git`.
+- Para clonar o projeto: `git@github.com:rafhaelgomes-dev/Todo-list-TRYBE.git`.
 
 <hr></hr>
