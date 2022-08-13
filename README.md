@@ -1,6 +1,6 @@
 # Projeto Todo-List-Vanilha
 
-Aplicação que permite cadastrar suas taréfas, sendo possivel marcá-las como concluídas e remover da lista, movê-las de posição e apagar todas as tarefas.
+Aplicação que permite cadastrar suas tarefas, sendo possível marcá-las como concluídas e remover da lista, além de poder movê-las de posição e apagar todas as tarefas.
 
 <hr></hr>
 
